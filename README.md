@@ -1,5 +1,5 @@
 <p align="center" style="text-align: center;">
-  <img src="https://github.com/PaMoSplat-old/anonymous_code/blob/main/logo.svg" alt="PaMoSplat Logo" style="vertical-align: bottom; width:300px;"/>
+  <img src="https://github.com/BIT-DYN/pamosplat/blob/master/logo.svg" alt="PaMoSplat Logo" style="vertical-align: bottom; width:300px;"/>
 </p>
 
 <p align="center">
