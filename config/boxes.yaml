@@ -1,0 +1,15 @@
+# gen_gaussian_part
+ratio_the: 0.5
+num_thre: 0.2
+group_res: 1.0
+eps: 0.1
+min_points: 20
+vis_group: False
+
+
+# motion prior
+no_score: 0.07
+
+# train_iter
+num_iter_initial: 10000
+num_iter_post: 2000
