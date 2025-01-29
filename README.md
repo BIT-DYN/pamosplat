@@ -17,12 +17,12 @@
 
 
  ## 🏠  Abstract
-Dynamic scene reconstruction is a critical yet challenging task in both computer vision and robotics. 
-Despite recent advancements in 3D Gaussian Splatting (3DGS) based approaches for modeling dynamics, achieving high-quality rendering and precise tracking in large complex motion scenes remains formidable.
+Dynamic scene reconstruction is a critical yet challenging task in both computer vision and robotics.
+Despite recent advancements in 3D Gaussian Splatting (3DGS) based approaches for modeling dynamics, achieving high-quality rendering and precise tracking in scenes characterized by large, complex motions remains formidable.
 To address these challenges, we propose PaMoSplat, a novel Gaussian splatting framework incorporating part awareness and motion priors. 
-Two key insights of PaMoSplat are: 1) Parts serve as primitives for scene deformation, and 2) Motion cues from optical flow can effectively guide movements.
-In PaMoSplat, for the initial timestamp, graph clustering technique facilitates the lifting of multi-view segmentation masks into 3D to create Gaussian parts. For subsequent timestamps, a differential evolutionary algorithm is employed to infer prior motion of these Gaussian parts based on the optical flow across views, serving as initial state for further optimization. Additionally, PaMoSplat introduces internal learnable rigidity for the parts and flow-supervised rendering loss.
-Experiments on various scenes demonstrate that PaMoSplat achieves exceptional rendering quality and tracking accuracy. Furthermore, it enables part-level downstream applications, including 4D video editing.
+Two key insights are: 1) Parts serve as primitives for scene deformation, and 2) Motion cues from optical flow can effectively guide part motion.
+In PaMoSplat, for the initial timestamp, the graph clustering technique facilitates the lifting of multi-view segmentation masks into 3D to create Gaussian parts. For subsequent timestamps, a differential evolutionary algorithm is employed to infer the prior motion of these Gaussian parts based on the optical flow across views, serving as a warm-start state for further optimization. Additionally, PaMoSplat introduces an adaptive iteration count mechanism, internal learnable rigidity and flow-supervised rendering loss to accelerate and optimize the training process.
+Experiments conducted on various scenes, including real-world setups, have demonstrated that PaMoSplat achieves excellent rendering quality, tracking accuracy, and faster training speeds. Furthermore, it enables multiple part-level downstream applications, such as 4D scene editing.
  
 
 ## 🛠  Install
