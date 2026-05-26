@@ -75,7 +75,7 @@ pip install .
 
 
 ## 📊 Prepare dataset
-OpenGraph has completed validation on [PanopticSport](https://github.com/JonathonLuiten/Dynamic3DGaussians), [ParticleNeRF](https://github.com/jc211/ParticleNeRF) and self-captured dataset. 
+PaMoSplat has completed validation on [PanopticSport](https://github.com/JonathonLuiten/Dynamic3DGaussians), [ParticleNeRF](https://github.com/jc211/ParticleNeRF) and self-captured dataset. 
 
 We organize all of our datasets in the format of PanopticSport, so we recommend downloading it for quick use.
 
